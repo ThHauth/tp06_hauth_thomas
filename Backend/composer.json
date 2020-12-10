@@ -1,0 +1,19 @@
+{
+    "require": {
+        "slim/slim": "^4.0",
+        "firebase/php-jwt": "^5.2",
+        "tuupola/slim-jwt-auth": "^3.5",
+        "php-di/php-di": "^6.3",
+        "slim/psr7": "^1.2",
+	    "doctrine/orm": "2.*",
+    	"symfony/yaml": "*"
+    },
+    "autoload": {
+        "psr-4": {
+          "App\\": "app/"
+        },
+        "psr-0": {
+          "": "src/"
+        }
+      }
+}

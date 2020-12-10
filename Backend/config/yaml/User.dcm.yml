@@ -1,0 +1,82 @@
+User:
+  type: entity
+  table: user
+  id:
+    idUser:
+      type: integer
+      nullable: false
+      options:
+        unsigned: false
+      id: true
+      column: id
+      generator:
+        strategy: AUTO
+  fields:
+    nom:
+      type: string
+      nullable: false
+      length: 256
+      options:
+        fixed: false
+    prenom:
+      type: string
+      nullable: false
+      length: 256
+      options:
+        fixed: false
+    civilite:
+      type: string
+      nullable: false
+      length: 256
+      options:
+        fixed: false
+    adresse:
+      type: string
+      nullable: false
+      length: 256
+      options:
+        fixed: false
+    codePostal:
+      type: string
+      nullable: false
+      length: 256
+      options:
+        fixed: false
+    ville:
+      type: string
+      nullable: false
+      length: 256
+      options:
+        fixed: false
+    pays:
+      type: string
+      nullable: false
+      length: 256
+      options:
+        fixed: false
+    tel:
+      type: string
+      nullable: false
+      length: 10
+      options:
+        fixed: false
+    username:
+      type: string
+      nullable: false
+      length: 256
+      options:
+        fixed: false
+    motDePasse:
+      type: string
+      nullable: false
+      length: 256
+      options:
+        fixed: false
+    mail:
+      type: string
+      nullable: false
+      length: 256
+      options:
+        fixed: false
+    
+  lifecycleCallbacks: { }
